@@ -1,0 +1,68 @@
+
+.gpt3__header{
+    display: flex;
+    justify-content: space-around;
+}
+.gpt3__header-content h1{
+width: 614px;
+height: 225px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 62px;
+line-height: 75px;
+letter-spacing: -0.04em;
+}
+
+.gpt3__header-content p{
+padding-top: 30px;
+
+width: 554px;
+height: 227px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.7;
+color: #81AFDD;
+}
+.gpt3__header-image img{
+    width: 667.41px;
+    height: 701.59px;
+    margin-top: -110px;
+
+}
+
+.gpt3__header-content__input input{
+width: 456px;
+border: none;
+padding: 20px;
+height: 73px;
+background: #052D56;
+border-radius: 5px 0px 0px 5px;
+}
+.gpt3__header-content__input input::placeholder{
+    font-size: 20px;
+    color: var(--color-footer);
+}
+.gpt3__header-content__input button{
+     width: 174px;
+     height: 73px;
+     background: #FF4820;
+     border-radius: 5px 0px 0px 5px;
+     font-size: 20px;
+     color: #fff;
+     font-weight: 500;
+     border: none;
+     outline: none;
+}
+.gpt3__header-content__people img{
+    float: left;
+    padding-top: 30px;
+}
+
+.gpt3__header-content__people p{
+    float: right;
+    text-align: center;
+
+}
