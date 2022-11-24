@@ -55,14 +55,57 @@ border-radius: 5px 0px 0px 5px;
      font-weight: 500;
      border: none;
      outline: none;
+     -webkit-border-radius: 5px 0px 0px 5px;
+     -moz-border-radius: 5px 0px 0px 5px;
+     -ms-border-radius: 5px 0px 0px 5px;
+     -o-border-radius: 5px 0px 0px 5px;
 }
-.gpt3__header-content__people img{
-    float: left;
+.gpt3__header-content__people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 30px;
 }
 
-.gpt3__header-content__people p{
+/* .gpt3__header-content__people p{
     float: right;
     text-align: center;
 
+} */
+
+@media screen and (max-width:1320px) {
+    .gpt3__header-image img{
+        display: none;
+    }
+}
+@media screen and (max-width:780px){
+    .gpt3__header-content__input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .gpt3__header-content__input button{
+        margin-top: 20px;
+    }
+}
+@media  screen and (max-width:530px) {
+   .gpt3__header-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gpt3__header-content h1{
+    font-size: 20px;
+    width: 350px
+}
+.gpt3__header-content p{
+    width: 400px;
+    padding: 20px;
+}
+.gpt3__header-content__input input{
+   width: 300px;
+}
 }
