@@ -11,6 +11,7 @@ const Feature = ({title, text}) => {
     </div>
   </div>
   )
+  
 }
 
 export default Feature
