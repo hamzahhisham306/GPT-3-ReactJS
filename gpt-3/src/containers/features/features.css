@@ -36,3 +36,19 @@ line-height: 24px;
 letter-spacing: -0.04em;
 color: #FFFFFF;
 }
+
+@media screen and (max-width:1510px) {
+    .gpt3__features-container .gpt3__features-container__feature,.gpt3__features{
+        flex-wrap: wrap;
+    }
+    .gpt3__features-container .gpt3__features-container__feature{
+        margin-top: 90px;
+    }
+    .gpt3__features .gpt3__features-container_feature-text p {
+     width: 100%;
+    }
+    .gpt3__features-heading h1{
+        font-size: 25px;
+        width: 100%;
+    }
+}
