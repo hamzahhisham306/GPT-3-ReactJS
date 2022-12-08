@@ -35,3 +35,10 @@
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
 }
+@media screen and (max-width:1074px) {
+    .gpy3__cta{
+        flex-direction: column;
+        width: 600px;
+    }
+ 
+}
