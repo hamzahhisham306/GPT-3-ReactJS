@@ -1,0 +1,50 @@
+.gpt3__footer{
+width: 100%;
+height: 950px;
+background: #031B34;
+}
+.gpt3__footer-heading h1{
+    margin: 20px auto;
+}
+.gpt3__footer-btn{
+    padding-top: 40px;
+}
+.gpt3__footer-btn p{
+    border: 1px solid #FFFFFF;
+    width: 218px;
+    height: 65px;
+    margin: 20px auto;
+    text-align: center;
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+.gpt3__footer-links{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-around;
+
+}
+.gpt3__footer-links h4{
+    color: #FFFFFF;
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 16px;
+
+}
+.gpt3__footer-links_div p,
+.gpt3__footer-links_logo p{
+  padding-top: 30px;
+  font-family: 'Gilroy-Medium';
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+
+}
+.gpt3__footer-copyright{
+    text-align: center;
+    margin-top: 130px;
+    font-family: 'Gilroy-Medium';
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+}
